@@ -1,0 +1,11 @@
+/*body{
+	background-image: url(http://3.bp.blogspot.com/-TX7SxqbC2kI/UmFxoESsJfI/AAAAAAAAPY4/jfO5tHfsZBU/s1600/reward_bunnies1.jpg) no-repeat center center fixed;
+	/*background-repeat: none;*/
+/*}*/
+body { 
+  background: url(http://3.bp.blogspot.com/-TX7SxqbC2kI/UmFxoESsJfI/AAAAAAAAPY4/jfO5tHfsZBU/s1600/reward_bunnies1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
