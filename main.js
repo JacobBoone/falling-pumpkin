@@ -12,7 +12,7 @@ var MAX_LEFT = 95;
 	}
 
 	Pumpkin.prototype.create = function(){
-		this.el= $('<img src="http://files.softicons.com/download/holidays-icons/desktop-halloween-icons-by-aha-soft/png/256x256/Pumpkin.png">')
+		this.el= $('<img src="http://files.softicons.com/download/holidays-icons/desktop-halloween-icons-by-aha-soft/png/256x256/Pumpkin.png" class="pumpkin">')
 
 		this.el.css({
 			top: Math.random() * MAX_TOP + '%',
@@ -56,7 +56,8 @@ var MAX_LEFT = 95;
 
 	}
 	Basket.prototype.create = function(){
-		this.el =$('<i class="penguin icon-plancast"></i>');('<img src="http://www.vaibhaventerprises.org/images/Decorative-items/Gift-Packing-Baskets/Oval%20Jaili%20Basket.png">')
+		// this.el =$('<img src="http://www.vaibhaventerprises.org/images/Decorative-items/Gift-Packing-Baskets/Oval%20Jaili%20Basket.png" class="basket">');
+		this.el =$('<img src="images/Basket.png" class="basket">');
 		return this.el;
 
 		
@@ -74,7 +75,7 @@ var MAX_LEFT = 95;
 		newEl.append(this.basket.create());
 		newEl.css('bottom', this.pumpkins.length * 20)  
 
-		// 	append all pumkins to flock
+		// 	append all pumpkins to flock
 		for (var i = 0; i < this.pumpkins.length; i++) {
 			console.log(this.pumpkins[i].el)
 			newEl.append(this.pumpkins[i].el)

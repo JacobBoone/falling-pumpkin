@@ -2,10 +2,55 @@
 	background-image: url(http://3.bp.blogspot.com/-TX7SxqbC2kI/UmFxoESsJfI/AAAAAAAAPY4/jfO5tHfsZBU/s1600/reward_bunnies1.jpg) no-repeat center center fixed;
 	/*background-repeat: none;*/
 /*}*/
-body { 
+html, body{
+	height: 100%;
+}
+
+
+/*body { */
   background: url(http://3.bp.blogspot.com/-TX7SxqbC2kI/UmFxoESsJfI/AAAAAAAAPY4/jfO5tHfsZBU/s1600/reward_bunnies1.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.sky{
+	height: 75%;
+	position: relative;
+	text-align:center;
+	/*background-color: lightgrey;*/
+	/*background-image: url("http://img2.wikia.nocookie.net/__cb20131001015918/steamtradingcards/images/e/e2/Gone_Home_Background_Starry_Night.jpg");*/
+}
+
+
+.earth{
+	height: 25%;
+	/*background-color: darkgreen;*/
+	/*background-image: url("http://us.cdn3.123rf.com/168nwm/irrrina/irrrina1403/irrrina140300053/27263813-abstract-blue-square-background-used-mesh-layers-and-transparency-layers.jpg");*/
+}
+
+.basket{
+	position: absolute;
+	bottom: 0px;
+}
+
+#moon{
+	position: absolute;	
+	color: white;
+	font-size: 175px;
+
+
+}
+
+.pumpkin{
+	position: absolute;
+	/*color: #6666FF;*/
+}
+.flock{
+	position: absolute;
+	display: inline-block;
+	height: 50px;
+	width: 200px;
+
 }
