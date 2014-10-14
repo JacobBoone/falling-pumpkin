@@ -7,7 +7,7 @@ html, body{
 }
 
 
-/*body { */
+body { 
   background: url(http://3.bp.blogspot.com/-TX7SxqbC2kI/UmFxoESsJfI/AAAAAAAAPY4/jfO5tHfsZBU/s1600/reward_bunnies1.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -33,19 +33,15 @@ html, body{
 .basket{
 	position: absolute;
 	bottom: 0px;
+	width: 300px;
 }
 
-#moon{
-	position: absolute;	
-	color: white;
-	font-size: 175px;
-
-
-}
 
 .pumpkin{
 	position: absolute;
 	/*color: #6666FF;*/
+	width: 50px;
+	height: 50px;
 }
 .flock{
 	position: absolute;
